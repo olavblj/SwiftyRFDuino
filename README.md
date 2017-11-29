@@ -25,10 +25,9 @@ Then run `pod install` from your project directory.
 
 ## Usage
 
-WARNING: The code in the current `Example` directory is not necessarily working with the current version of the Pod. It is recommended to not rely too heavily on it.
+WARNING: The code in the current `Example` directory will not necessarily work with the current version of the Pod. It is recommended to not rely too heavily on it.
 
 ### Basic Setup
-#### Start the `RFDuinoManager` instance
 
 ```swift
 import SwiftyRFDuino
@@ -49,7 +48,7 @@ class MyViewController: UIViewController {
 }
 ```
 
-#### `RFDuinoManagerDelegate` methods
+#### RFDuinoManagerDelegate methods
 
 ```swift
 extension MyViewController: RFDuinoManagerDelegate {
@@ -71,7 +70,7 @@ extension MyViewController: RFDuinoManagerDelegate {
 ```
 
 
-#### `RFDuinoDelegate` methods
+#### RFDuinoDelegate methods
 
 ```swift
 extension MyViewController: RFDuinoDelegate {
@@ -107,9 +106,9 @@ extension MyViewController: RFDuinoDelegate {
 
 ### Interface
 
-#### `RFDuinoManager` methods
+#### RFDuinoManager methods
 
-```
+```swift
 func startScanningForRFDuinos()
 
 func stopScanningForRFDuinos()
@@ -119,9 +118,9 @@ func connect(to rfduino: RFDuino)
 func disconnect(from rfduino: RFDuino)
 ```
 
-#### `RFDuino` methods
+#### RFDuino methods
 
-```
+```swift
 func discoverServices()
 
 func send(data: Data)
