@@ -3,7 +3,6 @@
 [![swift-version](https://img.shields.io/badge/swift%20version-4.0-orange.svg)](https://cocoapods.org/pods/swiftyrfduino)
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://cocoapods.org/pods/swiftyrfduino)
 [![platform](https://img.shields.io/cocoapods/p/SwiftyRFDuino.svg)](https://cocoapods.org/pods/swiftyrfduino)
-[![docs](https://img.shields.io/cocoapods/metrics/doc-percent/SwiftyRFDuino.svg)](https://cocoapods.org/pods/swiftyrfduino)
 
 
 ## Installation
