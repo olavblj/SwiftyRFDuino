@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:RFDuinoSwift4.xcodeproj">
+      location = "self:/Users/olavlj/prosjekt/iOS/RFDuinoSwift4/SwiftyRFDuino.xcodeproj">
    </FileRef>
 </Workspace>

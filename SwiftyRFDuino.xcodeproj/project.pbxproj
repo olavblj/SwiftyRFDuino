@@ -12,8 +12,8 @@
 		47033E4C1FCECDC0008BD0BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47033E4A1FCECDC0008BD0BA /* Main.storyboard */; };
 		47033E4E1FCECDC0008BD0BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47033E4D1FCECDC0008BD0BA /* Assets.xcassets */; };
 		47033E511FCECDC0008BD0BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47033E4F1FCECDC0008BD0BA /* LaunchScreen.storyboard */; };
-		47033E5C1FCECDC0008BD0BA /* RFDuinoSwift4Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47033E5B1FCECDC0008BD0BA /* RFDuinoSwift4Tests.swift */; };
-		47033E671FCECDC0008BD0BA /* RFDuinoSwift4UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47033E661FCECDC0008BD0BA /* RFDuinoSwift4UITests.swift */; };
+		47033E5C1FCECDC0008BD0BA /* SwiftyRFDuinoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47033E5B1FCECDC0008BD0BA /* SwiftyRFDuinoTests.swift */; };
+		47033E671FCECDC0008BD0BA /* SwiftyRFDuinoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47033E661FCECDC0008BD0BA /* SwiftyRFDuinoUITests.swift */; };
 		47033E791FCECE68008BD0BA /* RFDuino.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47033E751FCECE67008BD0BA /* RFDuino.swift */; };
 		47033E7A1FCECE68008BD0BA /* RFDuinoManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47033E761FCECE68008BD0BA /* RFDuinoManager.swift */; };
 		47033E7B1FCECE68008BD0BA /* RFDuinoDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47033E771FCECE68008BD0BA /* RFDuinoDelegate.swift */; };
@@ -40,18 +40,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		47033E431FCECDC0008BD0BA /* RFDuinoSwift4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RFDuinoSwift4.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		47033E431FCECDC0008BD0BA /* SwiftyRFDuino.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftyRFDuino.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		47033E461FCECDC0008BD0BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		47033E481FCECDC0008BD0BA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		47033E4B1FCECDC0008BD0BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		47033E4D1FCECDC0008BD0BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		47033E501FCECDC0008BD0BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		47033E521FCECDC0008BD0BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		47033E571FCECDC0008BD0BA /* RFDuinoSwift4Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RFDuinoSwift4Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		47033E5B1FCECDC0008BD0BA /* RFDuinoSwift4Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RFDuinoSwift4Tests.swift; sourceTree = "<group>"; };
+		47033E571FCECDC0008BD0BA /* SwiftyRFDuinoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftyRFDuinoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		47033E5B1FCECDC0008BD0BA /* SwiftyRFDuinoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyRFDuinoTests.swift; sourceTree = "<group>"; };
 		47033E5D1FCECDC0008BD0BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		47033E621FCECDC0008BD0BA /* RFDuinoSwift4UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RFDuinoSwift4UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		47033E661FCECDC0008BD0BA /* RFDuinoSwift4UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RFDuinoSwift4UITests.swift; sourceTree = "<group>"; };
+		47033E621FCECDC0008BD0BA /* SwiftyRFDuinoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftyRFDuinoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		47033E661FCECDC0008BD0BA /* SwiftyRFDuinoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyRFDuinoUITests.swift; sourceTree = "<group>"; };
 		47033E681FCECDC0008BD0BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		47033E751FCECE67008BD0BA /* RFDuino.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RFDuino.swift; sourceTree = "<group>"; };
 		47033E761FCECE68008BD0BA /* RFDuinoManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RFDuinoManager.swift; sourceTree = "<group>"; };
@@ -91,8 +91,8 @@
 			children = (
 				47033E741FCECE17008BD0BA /* Source */,
 				47033E451FCECDC0008BD0BA /* Example */,
-				47033E5A1FCECDC0008BD0BA /* RFDuinoSwift4Tests */,
-				47033E651FCECDC0008BD0BA /* RFDuinoSwift4UITests */,
+				47033E5A1FCECDC0008BD0BA /* SwiftyRFDuinoTests */,
+				47033E651FCECDC0008BD0BA /* SwiftyRFDuinoUITests */,
 				47033E441FCECDC0008BD0BA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -100,9 +100,9 @@
 		47033E441FCECDC0008BD0BA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				47033E431FCECDC0008BD0BA /* RFDuinoSwift4.app */,
-				47033E571FCECDC0008BD0BA /* RFDuinoSwift4Tests.xctest */,
-				47033E621FCECDC0008BD0BA /* RFDuinoSwift4UITests.xctest */,
+				47033E431FCECDC0008BD0BA /* SwiftyRFDuino.app */,
+				47033E571FCECDC0008BD0BA /* SwiftyRFDuinoTests.xctest */,
+				47033E621FCECDC0008BD0BA /* SwiftyRFDuinoUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -121,22 +121,22 @@
 			path = Example;
 			sourceTree = "<group>";
 		};
-		47033E5A1FCECDC0008BD0BA /* RFDuinoSwift4Tests */ = {
+		47033E5A1FCECDC0008BD0BA /* SwiftyRFDuinoTests */ = {
 			isa = PBXGroup;
 			children = (
-				47033E5B1FCECDC0008BD0BA /* RFDuinoSwift4Tests.swift */,
+				47033E5B1FCECDC0008BD0BA /* SwiftyRFDuinoTests.swift */,
 				47033E5D1FCECDC0008BD0BA /* Info.plist */,
 			);
-			path = RFDuinoSwift4Tests;
+			path = SwiftyRFDuinoTests;
 			sourceTree = "<group>";
 		};
-		47033E651FCECDC0008BD0BA /* RFDuinoSwift4UITests */ = {
+		47033E651FCECDC0008BD0BA /* SwiftyRFDuinoUITests */ = {
 			isa = PBXGroup;
 			children = (
-				47033E661FCECDC0008BD0BA /* RFDuinoSwift4UITests.swift */,
+				47033E661FCECDC0008BD0BA /* SwiftyRFDuinoUITests.swift */,
 				47033E681FCECDC0008BD0BA /* Info.plist */,
 			);
-			path = RFDuinoSwift4UITests;
+			path = SwiftyRFDuinoUITests;
 			sourceTree = "<group>";
 		};
 		47033E741FCECE17008BD0BA /* Source */ = {
@@ -154,9 +154,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		47033E421FCECDC0008BD0BA /* RFDuinoSwift4 */ = {
+		47033E421FCECDC0008BD0BA /* SwiftyRFDuino */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 47033E6B1FCECDC0008BD0BA /* Build configuration list for PBXNativeTarget "RFDuinoSwift4" */;
+			buildConfigurationList = 47033E6B1FCECDC0008BD0BA /* Build configuration list for PBXNativeTarget "SwiftyRFDuino" */;
 			buildPhases = (
 				47033E3F1FCECDC0008BD0BA /* Sources */,
 				47033E401FCECDC0008BD0BA /* Frameworks */,
@@ -166,14 +166,14 @@
 			);
 			dependencies = (
 			);
-			name = RFDuinoSwift4;
+			name = SwiftyRFDuino;
 			productName = RFDuinoSwift4;
-			productReference = 47033E431FCECDC0008BD0BA /* RFDuinoSwift4.app */;
+			productReference = 47033E431FCECDC0008BD0BA /* SwiftyRFDuino.app */;
 			productType = "com.apple.product-type.application";
 		};
-		47033E561FCECDC0008BD0BA /* RFDuinoSwift4Tests */ = {
+		47033E561FCECDC0008BD0BA /* SwiftyRFDuinoTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 47033E6E1FCECDC0008BD0BA /* Build configuration list for PBXNativeTarget "RFDuinoSwift4Tests" */;
+			buildConfigurationList = 47033E6E1FCECDC0008BD0BA /* Build configuration list for PBXNativeTarget "SwiftyRFDuinoTests" */;
 			buildPhases = (
 				47033E531FCECDC0008BD0BA /* Sources */,
 				47033E541FCECDC0008BD0BA /* Frameworks */,
@@ -184,14 +184,14 @@
 			dependencies = (
 				47033E591FCECDC0008BD0BA /* PBXTargetDependency */,
 			);
-			name = RFDuinoSwift4Tests;
+			name = SwiftyRFDuinoTests;
 			productName = RFDuinoSwift4Tests;
-			productReference = 47033E571FCECDC0008BD0BA /* RFDuinoSwift4Tests.xctest */;
+			productReference = 47033E571FCECDC0008BD0BA /* SwiftyRFDuinoTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		47033E611FCECDC0008BD0BA /* RFDuinoSwift4UITests */ = {
+		47033E611FCECDC0008BD0BA /* SwiftyRFDuinoUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 47033E711FCECDC0008BD0BA /* Build configuration list for PBXNativeTarget "RFDuinoSwift4UITests" */;
+			buildConfigurationList = 47033E711FCECDC0008BD0BA /* Build configuration list for PBXNativeTarget "SwiftyRFDuinoUITests" */;
 			buildPhases = (
 				47033E5E1FCECDC0008BD0BA /* Sources */,
 				47033E5F1FCECDC0008BD0BA /* Frameworks */,
@@ -202,9 +202,9 @@
 			dependencies = (
 				47033E641FCECDC0008BD0BA /* PBXTargetDependency */,
 			);
-			name = RFDuinoSwift4UITests;
+			name = SwiftyRFDuinoUITests;
 			productName = RFDuinoSwift4UITests;
-			productReference = 47033E621FCECDC0008BD0BA /* RFDuinoSwift4UITests.xctest */;
+			productReference = 47033E621FCECDC0008BD0BA /* SwiftyRFDuinoUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -233,7 +233,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 47033E3E1FCECDC0008BD0BA /* Build configuration list for PBXProject "RFDuinoSwift4" */;
+			buildConfigurationList = 47033E3E1FCECDC0008BD0BA /* Build configuration list for PBXProject "SwiftyRFDuino" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -246,9 +246,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				47033E421FCECDC0008BD0BA /* RFDuinoSwift4 */,
-				47033E561FCECDC0008BD0BA /* RFDuinoSwift4Tests */,
-				47033E611FCECDC0008BD0BA /* RFDuinoSwift4UITests */,
+				47033E421FCECDC0008BD0BA /* SwiftyRFDuino */,
+				47033E561FCECDC0008BD0BA /* SwiftyRFDuinoTests */,
+				47033E611FCECDC0008BD0BA /* SwiftyRFDuinoUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -300,7 +300,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				47033E5C1FCECDC0008BD0BA /* RFDuinoSwift4Tests.swift in Sources */,
+				47033E5C1FCECDC0008BD0BA /* SwiftyRFDuinoTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,7 +308,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				47033E671FCECDC0008BD0BA /* RFDuinoSwift4UITests.swift in Sources */,
+				47033E671FCECDC0008BD0BA /* SwiftyRFDuinoUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -317,12 +317,12 @@
 /* Begin PBXTargetDependency section */
 		47033E591FCECDC0008BD0BA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 47033E421FCECDC0008BD0BA /* RFDuinoSwift4 */;
+			target = 47033E421FCECDC0008BD0BA /* SwiftyRFDuino */;
 			targetProxy = 47033E581FCECDC0008BD0BA /* PBXContainerItemProxy */;
 		};
 		47033E641FCECDC0008BD0BA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 47033E421FCECDC0008BD0BA /* RFDuinoSwift4 */;
+			target = 47033E421FCECDC0008BD0BA /* SwiftyRFDuino */;
 			targetProxy = 47033E631FCECDC0008BD0BA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -462,7 +462,7 @@
 				DEVELOPMENT_TEAM = ZN78TU78M5;
 				INFOPLIST_FILE = Example/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.olavlj.RFDuinoSwift4;
+				PRODUCT_BUNDLE_IDENTIFIER = com.olavlj.SwiftyRFDuino;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -477,7 +477,7 @@
 				DEVELOPMENT_TEAM = ZN78TU78M5;
 				INFOPLIST_FILE = Example/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.olavlj.RFDuinoSwift4;
+				PRODUCT_BUNDLE_IDENTIFIER = com.olavlj.SwiftyRFDuino;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -497,7 +497,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RFDuinoSwift4.app/RFDuinoSwift4";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftyRFDuino.app/SwiftyRFDuino";
 			};
 			name = Debug;
 		};
@@ -514,7 +514,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RFDuinoSwift4.app/RFDuinoSwift4";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftyRFDuino.app/SwiftyRFDuino";
 			};
 			name = Release;
 		};
@@ -553,7 +553,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		47033E3E1FCECDC0008BD0BA /* Build configuration list for PBXProject "RFDuinoSwift4" */ = {
+		47033E3E1FCECDC0008BD0BA /* Build configuration list for PBXProject "SwiftyRFDuino" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				47033E691FCECDC0008BD0BA /* Debug */,
@@ -562,7 +562,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		47033E6B1FCECDC0008BD0BA /* Build configuration list for PBXNativeTarget "RFDuinoSwift4" */ = {
+		47033E6B1FCECDC0008BD0BA /* Build configuration list for PBXNativeTarget "SwiftyRFDuino" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				47033E6C1FCECDC0008BD0BA /* Debug */,
@@ -571,7 +571,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		47033E6E1FCECDC0008BD0BA /* Build configuration list for PBXNativeTarget "RFDuinoSwift4Tests" */ = {
+		47033E6E1FCECDC0008BD0BA /* Build configuration list for PBXNativeTarget "SwiftyRFDuinoTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				47033E6F1FCECDC0008BD0BA /* Debug */,
@@ -580,7 +580,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		47033E711FCECDC0008BD0BA /* Build configuration list for PBXNativeTarget "RFDuinoSwift4UITests" */ = {
+		47033E711FCECDC0008BD0BA /* Build configuration list for PBXNativeTarget "SwiftyRFDuinoUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				47033E721FCECDC0008BD0BA /* Debug */,

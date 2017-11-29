@@ -1,15 +1,15 @@
 //
-//  RFDuinoSwift4Tests.swift
-//  RFDuinoSwift4Tests
+//  SwiftyRFDuinoTests.swift
+//  SwiftyRFDuinoTests
 //
 //  Created by Olav Bakke Ljosland on 29/11/2017.
 //  Copyright © 2017 Olav Bakke Ljosland. All rights reserved.
 //
 
 import XCTest
-@testable import RFDuinoSwift4
+@testable import SwiftyRFDuino
 
-class RFDuinoSwift4Tests: XCTestCase {
+class SwiftyRFDuinoTests: XCTestCase {
     
     override func setUp() {
         super.setUp()

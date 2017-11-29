@@ -1,6 +1,6 @@
 //
 //  ViewController.swift
-//  RFDuinoSwift4
+//  SwiftyRFDuino
 //
 //  Created by Olav Bakke Ljosland on 29/11/2017.
 //  Copyright © 2017 Olav Bakke Ljosland. All rights reserved.

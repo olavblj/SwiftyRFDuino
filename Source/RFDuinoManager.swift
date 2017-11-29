@@ -46,18 +46,18 @@ extension RFDuinoManager {
         log(.start, "Started scanning for peripherals")
         
         let services = [RFDuinoUUID.discover.id]
-        centralManager.scanForPeripherals(withServices: services, options: [CBCentralManagerScanOptionAllowDuplicatesKey: false])
+        self.centralManager.scanForPeripherals(withServices: services, options: [CBCentralManagerScanOptionAllowDuplicatesKey: false])
     }
     
     func stopScanningForRFDuinos() {
         rfduinos = []
         log(.stop, "Stopped scanning for peripherals")
-        centralManager.stopScan()
+        self.centralManager.stopScan()
     }
     
     func connect(to rfduino: RFDuino) {
         log(.start, "Connecting to RFDuino")
-        centralManager.connect(rfduino.peripheral, options: nil)
+        self.centralManager.connect(rfduino.peripheral, options: nil)
     }
     
     func disconnect(from rfduino: RFDuino) {
